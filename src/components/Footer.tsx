@@ -3,6 +3,9 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <div className="footer-container">
+            <p>
+                Footer
+            </p>
             <div className="social_icons">
                 asdfsdf
                 <Link
