@@ -17,7 +17,7 @@ const project_data: Array<Project> = [
     {
         id: 2, 
         title: 'Tank Game',
-        description: 'dfa',
+        description: 'dfxzca',
         github: 'https://github.com/abhiramrp/tank_game'
     }
 
