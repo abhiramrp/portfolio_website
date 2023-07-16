@@ -23,15 +23,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>
-        <Navbar />
-        
+      <body className={font.className}>        
         <Providers>
-          <ThemeSwitcher />
+          <Navbar />
           {children}
+          <Footer />
         </Providers>
 
-        <Footer />
+        
       </body>
     </html>
   )
