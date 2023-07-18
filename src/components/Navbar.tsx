@@ -26,19 +26,19 @@ export default function Navbar() {
                     
                 <div className="ml-4 flex space-x-4">
                     <ThemeSwitcher />
-                <Link href="#intro" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="#intro" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Home
                 </Link>
-                <Link href="/about" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="#about" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     About
                 </Link>
-                <Link href="/projects" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/projects" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Projects
                 </Link>
-                <Link href="https://drive.google.com/file/d/1UtM5LFFq9-iRM1oE2ZtzYwRQ4LF87mKZ/view?usp=sharing" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="https://drive.google.com/file/d/1UtM5LFFq9-iRM1oE2ZtzYwRQ4LF87mKZ/view?usp=sharing" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Resume
                 </Link>
-                <Link href="/contact" className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
+                <Link href="/contact" className="text-white hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Contact
                 </Link>
                 
