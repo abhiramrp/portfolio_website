@@ -5,7 +5,6 @@ import { EnvelopeIcon } from "@heroicons/react/24/solid";
 
 export default function Footer() {
     return (
-        
         <footer className="bg-gray-600 text-white mx-auto px-4 sm:px-6 lg:px-8">
             <div className="md:flex md:items-center md:justify-between py-2">
                 <span className="text-sm">
@@ -22,14 +21,30 @@ export default function Footer() {
 
                     <div className="w-10 h-10 relative p-2">
                         <Link href="https://github.com/abhiramrp">
-                            <Image sizes="100%" layout="fill" objectFit="cover" quality={100} src="/logos/github.svg" alt="github"  />
+                            <Image
+                                quality={100}
+                                src="/logos/github.svg"
+                                alt="github"
+                                fill
+                                sizes="100%"
+                                style={{
+                                    objectFit: "cover"
+                                }} />
                         </Link>
                     </div>
 
                     <div className="w-12 h-10 relative">
                         <Link href="https://www.linkedin.com/in/abhiramprattipati/">
 
-                            <Image sizes="100%" layout="fill" objectFit="cover" quality={100} src="/logos/linkedin.svg" alt="github"  />
+                            <Image
+                                quality={100}
+                                src="/logos/linkedin.svg"
+                                alt="github"
+                                fill
+                                sizes="100%"
+                                style={{
+                                    objectFit: "cover"
+                                }} />
                         </Link>
                     </div>
 
@@ -39,7 +54,7 @@ export default function Footer() {
 
 
         </footer>
-    )
+    );
 }
 
 
