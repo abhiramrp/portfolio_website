@@ -61,4 +61,3 @@ export default function Footer() {
 /**
  * <Image fill={true} src="/logos/github.svg" alt="github"  />
  */
-

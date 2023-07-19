@@ -21,16 +21,12 @@ export default function Intro() {
     return (
         <div className="flex justify-center items-center p-5" id="intro">
 
-            <div className="h-full">
+            <div className="relative w-[500px] h-[500px]">
                 <Image
                     src="/profile.jpg"
                     alt="Abhiram's face"
-                    width={500}
-                    height={500}
-                    style={{
-                        maxWidth: "auto",
-                        maxHeight: "100%"
-                    }} />
+                    fill={true}
+                />
             </div>
 
 
@@ -99,4 +95,3 @@ export default function Intro() {
         </div>
     );
 }
-
