@@ -1,10 +1,9 @@
-import { Url } from "next/dist/shared/lib/router/router"
-
 interface Project {
     id: number,
     title: string, 
     description: string, 
-    github: Url
+    github: string, 
+    languages: string[]
 }
 
 const project_data: Array<Project> = [
@@ -12,13 +11,15 @@ const project_data: Array<Project> = [
         id: 1, 
         title: 'Disaster Tweets',
         description: 'dfa',
-        github: 'https://github.com/abhiramrp/tank_game'
+        github: 'https://github.com/abhiramrp/tank_game',
+        languages: ['python', 'NLP']
     }, 
     {
         id: 2, 
         title: 'Tank Game',
         description: 'dfxzca',
-        github: 'https://github.com/abhiramrp/tank_game'
+        github: 'https://github.com/abhiramrp/tank_game',
+        languages: ['java', 'OOPs']
     }
 
 ];

@@ -16,7 +16,7 @@ export default function About() {
     return (
         <div id="about" className="bg-blue-300 text-gray-800">
 
-            <div className="text-center font-bold text-2xl p-3">
+            <div className="text-center font-bold text-2xl pt-6">
                 About Me
             </div>
 

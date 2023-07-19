@@ -21,22 +21,22 @@ export default function Intro() {
     return (
         <div className="flex justify-center items-center p-5" id="intro">
 
-            <div>
+            <div className="h-full">
                 <Image
                     src="/profile.jpg"
                     alt="Abhiram's face"
                     width={500}
                     height={500}
                     style={{
-                        maxWidth: "100%",
-                        height: "auto"
+                        maxWidth: "auto",
+                        maxHeight: "100%"
                     }} />
             </div>
 
 
             <div className="flex-col justify-center align-middle items-center p-5">
 
-                <div className="text-center font-bold text-2xl p-3">
+                <div className="text-center font-bold text-3xl p-3">
                     Hey, I&#39;m Abhiram 👋
                 </div>
 
