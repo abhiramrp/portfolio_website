@@ -16,19 +16,20 @@ export default function Intro() {
         githubfile = "/logos/github.svg";
     }
 
+    const intro_text = "I'm a software developer based in Dallas-Forth metroplex, TX. " + 
+    "I am currently looking for entry level roles in software development, cloud computinng, and machine learning.";
+
 
 
     return (
-        <div className="flex justify-center items-center p-5" id="intro">
-
-            <div className="relative w-[500px] h-[500px]">
+        <div className="flex flex-wrap justify-center items-center p-5" id="intro">
+            <div className="relative w-[300px] h-[300px]">
                 <Image
                     src="/profile.jpg"
                     alt="Abhiram's face"
                     fill={true}
                 />
             </div>
-
 
             <div className="flex-col justify-center align-middle items-center p-5">
 
@@ -37,7 +38,7 @@ export default function Intro() {
                 </div>
 
                 <div className="text-center text-lg p-3">
-                    I&#39;m a software developer based in Dallas-Forth metroplex, TX. I am currently looking for entry level roles in software development, cloud computinng, and machine learning. 
+                    {intro_text}
                 </div>
 
                 <div className="ml-4 flex justify-center items-center space-x-4 p-3">
@@ -91,6 +92,11 @@ export default function Intro() {
                 </div>
 
             </div>
+
+            
+
+
+            
 
         </div>
     );
