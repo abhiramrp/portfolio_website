@@ -73,6 +73,21 @@ export default function Intro() {
                         </Link>
                     </div>
 
+                    <div className="w-40 h-20 relative">
+                        <Link href="https://www.kaggle.com/abhiramprattipati">
+
+                            <Image
+                                quality={100}
+                                src="/logos/kaggle.svg"
+                                alt="kaggle"
+                                fill
+                                sizes="100%"
+                                style={{
+                                    objectFit: "cover"
+                                }} />
+                        </Link>
+                    </div>
+
                     <div className="w-12 h-10 relative">
                         <Link href="https://www.linkedin.com/in/abhiramprattipati/">
 

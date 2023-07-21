@@ -35,28 +35,28 @@ export default function Navbar() {
                 navbar ? 'flex' : 'hidden'
             }`}>
                 <ul className="h-fit md:h-auto items-center justify-center md:flex">
-                    <li className="text-xl p-3 text-center hover:bg-blue-100 hover:text-gray-800">
+                    <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
                         <Link href="/" onClick={() => setNavbar(!navbar)}>
                             Home
                         </Link>
 
                     </li>
-                    <li className="text-xl p-3 text-center hover:bg-blue-100 hover:text-gray-800">
+                    <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
                         <Link href="#about" onClick={() => setNavbar(!navbar)}>
                             About
                         </Link>
                     </li>
-                    <li className="text-xl p-3 text-center hover:bg-blue-100 hover:text-gray-800">
+                    <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
                         <Link href="#projects" onClick={() => setNavbar(!navbar)}>
                             Projects
                         </Link>
                     </li>
-                    <li className="text-xl p-3 text-center hover:bg-blue-100 hover:text-gray-800">
+                    <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
                         <Link href="https://drive.google.com/file/d/1UtM5LFFq9-iRM1oE2ZtzYwRQ4LF87mKZ/view?usp=sharing" onClick={() => setNavbar(!navbar)}>
                             Resume
                         </Link>
                     </li>
-                    <li className="text-xl p-3 text-center hover:bg-blue-100 hover:text-gray-800">
+                    <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
                         <Link href="#contact" onClick={() => setNavbar(!navbar)}>
                             Contact
                         </Link>
