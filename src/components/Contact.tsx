@@ -19,7 +19,7 @@ export default function Contact(){
                     </Link>
                 </div>
 
-                <div className="text-center font-bold text-xl hover: underline">
+                <div className="text-center font-bold text-xl hover:underline">
                     <Link href="mailto:pabhiramrishi@gmail.com">
                         pabhiramrishi@gmail.com
                     </Link>
@@ -44,9 +44,9 @@ export default function Contact(){
                     </Link>
                 </div>
 
-                <div className="text-center font-bold text-xl hover: underline">
-                    <Link href="mailto:pabhiramrishi@gmail.com">
-                    https://www.linkedin.com/in/abhiramprattipati/
+                <div className="text-center font-bold text-xl hover:underline">
+                    <Link href="https://www.linkedin.com/in/abhiramprattipati/">
+                        Message me on LinkedIn!
                     </Link>
                 </div>
 
