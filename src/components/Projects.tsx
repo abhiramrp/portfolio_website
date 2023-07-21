@@ -17,7 +17,9 @@ export default function Projects() {
                             key={proj.key} 
                             title={proj.title} 
                             description={proj.description} 
+                            isVideo={proj.isVideo}
                             github={proj.github}
+                            filePath={proj.filePath}
                             languages={proj.languages}
                         />
                     )
