@@ -1,4 +1,4 @@
-interface Project {
+export interface Project {
     id: number,
     title: string, 
     description: string, 
@@ -19,7 +19,7 @@ const project_data: Array<Project> = [
         title: 'Tank Game',
         description: 'dfxzca',
         github: 'https://github.com/abhiramrp/tank_game',
-        languages: ['java', 'OOPs']
+        languages: ['java', 'OOPS']
     }
 
 ];

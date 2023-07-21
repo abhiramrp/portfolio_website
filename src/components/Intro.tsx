@@ -49,7 +49,7 @@ export default function Intro() {
                         </Link>
                     </div>
 
-                    <div className="text-center font-bold text-xl">
+                    <div className="text-center font-bold text-xl hover:underline">
                         <Link href="mailto:pabhiramrishi@gmail.com">
                             pabhiramrishi@gmail.com
                         </Link>
