@@ -13,24 +13,31 @@ const project_data: Array<Project> = [
         title: 'Disaster Tweets',
         description: 'ML model that predicts tweets that are about natural disasters using Logistic Regression and TF-IDF algorithm. ',
         github: 'https://github.com/abhiramrp/nlp_disaster_tweets',
-        filePath: 'sdfs', 
+        filePath: '/projects/disaster_tweets.jpg', 
         languages: ['Python', 'NLTK', 'Machine Learning', 'TensorFlow', 'Pandas', 'sci-kit learn']
     }, 
     {
         title: 'Tank Game',
-        description: 'dfxzca',
+        description: '2-player Java game where both players battle each other for survival.',
         isVideo: true,
-        filePath: 'asfds',
+        filePath: 'V2yBrowfJGo',
         github: 'https://github.com/abhiramrp/tank_game',
-        languages: ['java', 'OOPS']
+        languages: ['Java', 'OOPS']
     },
     {
         title: 'Personal Finance', 
         description: "Django web application where users can track their finances such as debit, credit, savings, and other accounts.", 
         github: 'https://github.com/abhiramrp/PersonalFinance',
         isVideo: true, 
-        filePath: 'sdfs',
+        filePath: 'pLwWa1HFi08',
         languages: ['Python', 'Django', 'SQLite', 'Chart.js', 'Bootstrap']
+    },
+    {
+        title: 'Roomeet',
+        description: "Flask web application where users can find roommates and listings by 'swiping' left or right based on their location and preferences.",
+        github: 'https://github.com/abhiramrp/RoomeetProject', 
+        filePath: '/projects/roomeet.jpg',
+        languages: ['Python', 'Flask', 'SQLite']
     }
 ];
 
