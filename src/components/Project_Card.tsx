@@ -13,25 +13,32 @@ export default function Project_Card (project: Project) {
 
     if (project.isVideo) {
         let youtubeStr = "https://www.youtube.com/embed/" + project.filePath;
-        /*
-        projectDisplay = <iframe src={youtubeStr} 
-            title="YouTube video player" 
-            frameBorder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowFullScreen>
-            
-        </iframe>
-        */
        
         projectDisplay = <Iframe url={youtubeStr} 
-            className='block relative w-full h-auto'
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-            allowFullScreen />
+        display='block' 
+        width='100ww'
+        height='auto' 
+        position='relative'
+        className="w-full h-auto"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+        allowFullScreen/>
+        
+        /*
+        <iframe src={youtubeStr} 
+                            title="W3Schools Free Online Web Tutorials"
+                            className="relative w-full h-auto"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            allowFullScreen>
+
+                        </iframe>
+
+        */
+        
     }
 
     return (
         <div className="border-black border-2 m-2 p-2 bg-blue-200 text-gray-900 flex-col">
-            <div className="font-bold text-xl flex justify-center relative">
+            <div className="font-bold text-2xl flex justify-center relative">
                 {project.title}
             </div>
 
@@ -48,7 +55,7 @@ export default function Project_Card (project: Project) {
                 Skills: {project.languages.join(', ')}
             </div>
 
-            <div className="text-l flex justify-center relative">
+            <div className="text-xl flex justify-center relative">
                 <Link href={project.github} className='hover:underline'> GitHub </Link>
             </div>
 
