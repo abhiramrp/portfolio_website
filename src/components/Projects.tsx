@@ -10,7 +10,7 @@ export default function Projects() {
                 Projects
             </div>
 
-            <div className="m-3 flex flex-wrap md:inline-grid md:grid-cols-3">
+            <div className="m-3  md:inline-grid md:grid-cols-3">
                 {project_data.map((proj) => {
                     return (
                         <Project_Card 

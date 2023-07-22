@@ -8,18 +8,13 @@ export default function Project_Card (project: Project) {
 
 
     let projectDisplay = <Image src={project.filePath} alt="Project Stock Image" width="0"
-    height="0"
-    sizes="100vw" className="w-full h-auto" />; 
+    height="0" sizes="100vw" className="w-full h-auto" />; 
 
     if (project.isVideo) {
         let youtubeStr = "https://www.youtube.com/embed/" + project.filePath;
        
         projectDisplay = <Iframe url={youtubeStr} 
-        display='block' 
-        width='100ww'
-        height='auto' 
-        position='relative'
-        className="w-full h-auto"
+        className="w-full h-auto aspect-video"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         allowFullScreen/>
         
@@ -42,7 +37,7 @@ export default function Project_Card (project: Project) {
                 {project.title}
             </div>
 
-            <div className='flex justify-center relative p-2 w-fit h-auto'>
+            <div className='flex justify-center items-center p-2'>
                 {projectDisplay}
             </div>
 

@@ -8,7 +8,7 @@ export default function Footer() {
         <footer className="bg-gray-600 text-white mx-auto px-4 sm:px-6 lg:px-8">
             <div className="md:flex md:items-center md:justify-between py-2">
                 <span className="text-sm">
-                    © {new Date().getFullYear()} Abhiram Rishi Prattipati. Made with <a href="https://nextjs.org/">Next.js</a> and <a href="https://tailwindcss.com/">Tailwind CSS</a>. Deployed on <a href="https://vercel.com/">Vercel</a>. 
+                    © {new Date().getFullYear()} Abhiram Rishi Prattipati. Made with <a href="https://nextjs.org/">Next.js</a> and <a href="https://tailwindcss.com/">Tailwind CSS</a>. Deployed on <a href="https://vercel.com/">Vercel</a>. <a href="https://github.com/abhiramrp/portfolio_website"> Stock Image Credits.</a> 
                 </span>
 
                 <div className="ml-4 flex justify-center items-center space-x-4">
