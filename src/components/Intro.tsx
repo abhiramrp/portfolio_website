@@ -17,7 +17,7 @@ export default function Intro() {
     }
 
     const intro_text = "I'm a software developer based in Dallas-Forth metroplex, TX. " + 
-    "I am currently looking for entry level roles in software development, cloud computinng, and machine learning.";
+    "I am currently looking for entry level roles in software development, cloud computing, and machine learning.";
 
 
 
