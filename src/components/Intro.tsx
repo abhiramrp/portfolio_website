@@ -59,7 +59,7 @@ export default function Intro() {
 
                 <div className="ml-4 flex justify-center items-center space-x-4 p-3">
 
-                    <div className="w-10 h-10 relative p-2">
+                    <div className="w-10 h-10 relative m-2">
                         <Link href="https://github.com/abhiramrp">
                             <Image
                                 quality={100}
