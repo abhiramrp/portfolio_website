@@ -17,6 +17,13 @@ const project_data: Array<Project> = [
         languages: ['Python', 'NLTK', 'Machine Learning', 'TensorFlow', 'Pandas', 'sci-kit learn']
     }, 
     {
+        title: 'Food Expiration Tracker',
+        description: 'Android Firebase application that help users track food items in their kitchen and notifies them if any food item expired.',
+        github: 'https://github.com/abhiramrp/Food_Expiration_Tracker',
+        filePath: '/projects/food_expiration_tracker.jpg', 
+        languages: ['Android', 'Kotlin', 'Firebase', 'Firestore']
+    },
+    {
         title: 'Tank Game',
         description: '2-player Java game where both players battle each other for survival.',
         isVideo: true,
