@@ -16,7 +16,7 @@ export default function Intro() {
         githubfile = "/logos/github.svg";
     }
 
-    const intro_text = "I'm a software developer based in Dallas-Forth metroplex, TX. " + 
+    const intro_text = "I'm a software developer based in Dallas-Fort Worth metroplex, TX. " + 
     "I am currently looking for entry level roles in software development, cloud computing, and machine learning.";
 
 
@@ -73,21 +73,6 @@ export default function Intro() {
                         </Link>
                     </div>
 
-                    <div className="w-40 h-20 relative">
-                        <Link href="https://www.kaggle.com/abhiramprattipati">
-
-                            <Image
-                                quality={100}
-                                src="/logos/kaggle.svg"
-                                alt="kaggle"
-                                fill
-                                sizes="100%"
-                                style={{
-                                    objectFit: "cover"
-                                }} />
-                        </Link>
-                    </div>
-
                     <div className="w-12 h-10 relative">
                         <Link href="https://www.linkedin.com/in/abhiramprattipati/">
 
@@ -108,10 +93,7 @@ export default function Intro() {
 
             </div>
 
-            
 
-
-            
 
         </div>
     );

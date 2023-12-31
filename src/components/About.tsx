@@ -9,7 +9,7 @@ export default function About() {
     "where I taught children courses in Python, Java, C++, and web development. " +
     "I helped them understand basic programming concepts and OOPS concepts.";
 
-    const bio2 =  "I am currently preparing for AWS Associate Solutions Architect certification. " + 
+    const bio2 =  "I am currently preparing for AWS Associate Developer certification. " + 
     "I am also looking for entry level opportunties in software development.";
 
 
