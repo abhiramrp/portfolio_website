@@ -52,7 +52,7 @@ export default function Navbar() {
                         </Link>
                     </li>
                     <li className="text-xl py-3 px-5 text-center hover:bg-blue-100 hover:text-gray-800">
-                        <Link href="/pdf/resume.pdf" onClick={() => setNavbar(!navbar)}>
+                        <Link href="/Abhiram_Rishi_Prattipati.pdf" onClick={() => setNavbar(!navbar)}>
                             Resume
                         </Link>
                     </li>
