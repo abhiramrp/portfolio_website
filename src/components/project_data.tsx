@@ -24,6 +24,13 @@ const project_data: Array<Project> = [
         languages: ['Android', 'Kotlin', 'Firebase', 'Firestore']
     },
     {
+        title: 'The Green Lamp', 
+        description: 'Fully functional e-commerce nursery website where users can purchase various plants.',
+        github: 'https://github.com/abhiramrp/csc317-group-html-bhavani-goruganthu',
+        filePath: ''
+
+    },
+    {
         title: 'Tank Game',
         description: '2-player Java game where both players battle each other for survival.',
         isVideo: true,
