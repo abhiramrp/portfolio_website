@@ -10,8 +10,16 @@ export interface Project {
 
 const project_data: Array<Project> = [
     {
+        title: 'CookSmart',
+        isVideo: true,
+        description: 'Grocery Management tool with built-in Recipe integration and macro counter.',
+        github: 'https://github.com/abhiramrp/nlp_disaster_tweets',
+        filePath: '0-JFdHwGaQs', 
+        languages: ['Next.js', 'Express.js', 'Node.js', 'PostgreSQL', 'Vercel']
+    }, 
+    {
         title: 'Disaster Tweets',
-        description: 'ML model that predicts tweets that are about natural disasters using Logistic Regression and TF-IDF algorithm. ',
+        description: 'ML model that predicts tweets that are about natural disasters using Logistic Regression and TF-IDF algorithm.',
         github: 'https://github.com/abhiramrp/nlp_disaster_tweets',
         filePath: '/projects/disaster_tweets.jpg', 
         languages: ['Python', 'NLTK', 'Machine Learning', 'TensorFlow', 'Pandas', 'sci-kit learn']
