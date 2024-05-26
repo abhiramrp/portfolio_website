@@ -23,7 +23,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={font.className}>        
+       <script type="text/javascript" async src="//cdn.credly.com/assets/utilities/embed.js"></script>     
+      <body className={font.className}>   
+
         <Providers>
           <Navbar />
           {children}

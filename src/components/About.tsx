@@ -9,8 +9,6 @@ export default function About() {
     "where I taught children courses in Python, Java, C++, and web development. " +
     "I helped them understand basic programming concepts and OOPS concepts.";
 
-    const bio2 =  "I am currently preparing for AWS Associate Developer certification. " + 
-    "I am also looking for entry level opportunties in software development.";
 
 
     return (
@@ -21,15 +19,16 @@ export default function About() {
             </div>
 
             <div className="p-8">
-
+                
                 <p>{bio}</p>
                 <br></br>
                 <p>{work}</p>
-                <br></br>
-                <p>{bio2}</p>
+                
+                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="af64a1a1-675b-4bee-862c-fe1aaff3dae7" data-share-badge-host="https://www.credly.com">
+                </div>
 
             </div>
-            
+
         </div>
     )
 }

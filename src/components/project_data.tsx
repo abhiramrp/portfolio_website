@@ -13,7 +13,7 @@ const project_data: Array<Project> = [
         title: 'CookSmart',
         isVideo: true,
         description: 'Grocery Management tool with built-in Recipe integration and macro counter.',
-        github: 'https://github.com/abhiramrp/nlp_disaster_tweets',
+        github: 'https://github.com/abhiramrp/Groceryapp',
         filePath: '0-JFdHwGaQs', 
         languages: ['Next.js', 'Express.js', 'Node.js', 'PostgreSQL', 'Vercel']
     }, 
