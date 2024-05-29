@@ -23,9 +23,7 @@ export default function About() {
                 <p>{bio}</p>
                 <br></br>
                 <p>{work}</p>
-                
-                <div data-iframe-width="150" data-iframe-height="270" data-share-badge-id="af64a1a1-675b-4bee-862c-fe1aaff3dae7" data-share-badge-host="https://www.credly.com">
-                </div>
+
 
             </div>
 
