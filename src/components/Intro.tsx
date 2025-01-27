@@ -16,8 +16,8 @@ export default function Intro() {
         githubfile = "/logos/github.svg";
     }
 
-    const intro_text = "I'm a software developer based in Dallas-Fort Worth metroplex, TX. " + 
-    "I am currently looking for entry level roles in software development, cloud computing, and machine learning.";
+    const intro_text = `I'm a software developer based in Dallas-Fort Worth metroplex, TX. 
+    "I am currently looking for entry level roles in software development and machine learning.`;
 
 
 
