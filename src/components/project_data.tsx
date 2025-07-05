@@ -10,6 +10,14 @@ export interface Project {
 
 const project_data: Array<Project> = [
     {
+        title: 'Smart Living',
+        isVideo: true,
+        description: 'Lease Management for tenants and landlords.',
+        github: 'https://github.com/abhiramrp/2025-Cohort-Team-2',
+        filePath: 'dQ7OreTH3r4',
+        languages: ['Django', 'React', 'PostgreSQL', 'Vercel', 'REST Framework']
+    },
+    {
         title: 'CookSmart',
         isVideo: true,
         description: 'Grocery Management tool with built-in Recipe integration and macro counter.',

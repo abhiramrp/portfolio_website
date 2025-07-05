@@ -24,7 +24,7 @@ export default function About() {
                 <br></br>
                 <p>{work}</p>
                 <br></br>
-                <p>I am currently a Full Stack Developer Intern at <a href="https://cogentibs.com/" className="hover:underline">Cogent IBS</a> and a Software Engineering Intern at <a href="https://www.tradesun.com/" className="hover:underline">TradeSun</a>.</p>
+                <p>I am currently a Software Developer at Paycom.</p>
 
             </div>
 
